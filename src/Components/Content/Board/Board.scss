@@ -1,0 +1,11 @@
+.Board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    aspect-ratio: 1 / 1;
+    width: 70vw;
+    max-width: 420px;
+    // width: 200px;
+    // height: 200px;
+}

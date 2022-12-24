@@ -1,0 +1,25 @@
+.Cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 5px;
+    color: var(--secondaryColor);
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px var(--shadow);
+    background-color: var(--fillerColor);
+
+    &:disabled {
+        background-color: var(--lightColor);
+    }
+
+    &:hover {
+        background-color: var(--lightColor);
+    }
+
+    &:active {
+        box-shadow: 1px 1px 4px 0 var(--shadow);
+    }
+}

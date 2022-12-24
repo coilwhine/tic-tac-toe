@@ -1,0 +1,33 @@
+:root {
+  --mainColor: #F7B25B;
+  --secondaryColor: #F65D51;
+  --fillerColor: white;
+  --lightColor: #fef9f0;
+  --textColor: #222222;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] {
+  --mainColor: #222222;
+  --secondaryColor: #F7B25B;
+  --fillerColor: #333333;
+  --lightColor: #2a2a2a;
+  --textColor: white;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kalam', cursive;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: var(--mainColor);
+  overflow: hidden;
+}
